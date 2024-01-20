@@ -1,0 +1,37 @@
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+.navigation_bar{
+    background-color: cyan;
+    width: 100vw;
+    height: 5vw;  
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+}
+.company_name{
+    font-size: xx-large;
+    display: inline;
+    margin-left: 1em;
+}
+.navbar_components{
+    display: flex;
+    gap: 3em;
+    margin-right: 2em;
+}
+.navbar_components a{
+    text-decoration: none;
+}
+.hover{
+}
+.hover:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,195 @@
+:root{
+    --theme : rgb(255, 255, 255);
+    --font-family : "Poppins", sans-serif;
+    --unhighlight:rgb(142, 131, 131);
+    --highlight:white;
+}
+body{
+    background-color: var(--theme);
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family);
+}
+
+.hover{
+}
+.hover:hover{
+    cursor: pointer;
+}
+.container{
+    width: 90vw;
+    height: 85vh;
+    margin: 3.5em 5em 1em 6em;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.5);
+}
+.left{
+    width: 45vw;
+    height: 85vh;
+    
+}
+.left nav{
+    margin: 1.2em 0 0 1.3em ;
+}
+.upper{
+    width: 45vw;
+    height: 70vh;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    width: 25vw;
+    height: 42vh;
+    margin-top: 2em;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.text{
+    width: 19vw;
+    height: 17vh;
+    /* background-color: black; */
+    
+}
+.text textarea{
+    border-right: 0.5em;
+    resize: none
+}
+.text textarea::placeholder{
+    font-size: larger;
+    line-height: inherit;
+    color: var(--unhighlight);
+}
+.gap{
+    height: 1.6em;
+}
+.icon{
+    display: flex;
+    border: 1px solid  black;
+    border-radius:0.5em ;
+}
+.icon div{
+    width: 3.3em;
+    height: 3.3em;
+    /* background-color: aliceblue; */
+    border-radius: 0.3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    margin-top: 1em;
+    /* background-color: blueviolet; */
+    width: 20em;
+    height: 4em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.input{
+    font-size: small;
+    font-family: var(--font-family);
+    color: var(--unhighlight);
+}
+.input input[type="checkbox"]{
+    width: 20px; /* Adjust the width as needed */
+    height: 15px; /* Adjust the height as needed */
+    border-radius: 1.5em;
+}
+.input label {
+    margin-left: 5px; /* Add some spacing between the checkbox and the label */
+    cursor: pointer; /* Change the cursor to indicate it's clickable */
+}
+
+.login{
+    font-size: larger;
+    border-radius: 0.5em;
+    color: var(--highlight);
+}
+.login:single-button{
+    background-color: red;
+}
+.right img {
+    width: 45vw;
+    height: 85vh;
+    background-color: pink;
+}
+.btn2{
+    align-items: flex-start;
+    margin-top: 5px;
+    height: 2em;
+}
+.btn2 a{
+    font-size: small;
+    text-decoration: none;
+}
+.reg{
+    color: #2196f3;
+}
+.for{
+    color: rgb(142, 131, 131);
+}
+
+.or{
+    /* background-color: black; */
+    width: 20vw;
+    height: 10px;
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.or span {
+    margin: 0 10px;
+    color: var(--unhighlight);
+}
+.line{
+    width: 8.5vw;
+    height: 1px;
+    background-color: var(--unhighlight);
+}
+
+
+.grid{
+    width: 25vw;
+    height: 25vh;
+    background-color: white;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+.grid button{
+    width: 20vw;
+    height: 4em;
+    margin-top: 0.8em;
+    border-radius: 0.5em;
+    font-size: large;
+    color: var(--highlight);
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+}
+
+.grid span{
+    width: 2em;
+}
+.face{
+    background-color: blue;
+}
+.tw{
+    background-color: #2196f3;
+}
+.goo{
+    background-color: red;
+}
+.icon input{
+    width: 19em;
+}
